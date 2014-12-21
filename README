@@ -1,0 +1,7 @@
+This is a practical example of how to use terminal.d and simpleaudio.d's mixer
+combined with eventloop.d's functionality.
+
+Get those three files here: https://github.com/adamdruppe/arsd
+
+Then you can compile and run this in a linux terminal. The controls are similar
+to alsamixer, with the addition of mouse wheel support.
