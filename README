@@ -5,3 +5,16 @@ Get those three files here: https://github.com/adamdruppe/arsd
 
 Then you can compile and run this in a linux terminal. The controls are similar
 to alsamixer, with the addition of mouse wheel support.
+
+It doesn't look like much right now. I might spruce up the graphics but really,
+all I wanted was mouse wheel support. I might also add a notification area icon
+to the gui with wheel support at some point too, idk.
+
+This is not a substitute for alsamixer in all cases, just in the specific case
+I wanted mouse wheel support for. Newer versions of alsamixer scale the numbers
+differently than my program (and older versions of alsamixer) too, but the same
+range is available.
+
+I suggest you keep alsamixer around to fill in the gaps, or if you want to extend
+this program, you could. In simpleaudio.d, I hardcoded the "Master" element but if
+you extend that with a query loop or whatever you could do it all.
